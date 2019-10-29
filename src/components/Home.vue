@@ -81,7 +81,7 @@ export default {
   min-height: calc(100vh - 96px);
 }
 /* 列表 */
-.van-list {
+.van-list >>> .van-cell{
   padding: 0 15px;
 }
 .van-cell .bank_name {
